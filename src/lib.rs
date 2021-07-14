@@ -5,18 +5,6 @@ mod lib4;
 mod lib5;
 
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
-
-
-///////////////////////////////////////////////////////
-
-
 
 mod front_of_house;//使用mod关键字声明front_of_house模块，具体的定义在front_of_house.rs文件中
 

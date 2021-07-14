@@ -1,15 +1,16 @@
 mod back_of_house {
 
+    //公有结构体
     pub struct Breakfast {
-
+        //公有字段 toast
         pub toast: String,
-
+        //私有字段 seasonal_fruit
         seasonal_fruit: String,
 
     }
 
     impl Breakfast {
-
+        //添加关联方法
         pub fn summer(toast: &str) -> Breakfast {
 
             Breakfast {
